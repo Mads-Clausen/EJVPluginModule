@@ -1,7 +1,7 @@
 #include "PluginManager.h"
 
 #include <iostream>
-#define EJV_PLUGIN_PATH "/home/mads/EmptyJuiceBox/EmpytJuiceVoxel-master/modules/Rules/PluginManager/plugins/"
+#define EJV_PLUGIN_PATH "/home/mads/EmptyJuiceBox/EmptyJuiceVoxel-master/modules/Rules/PluginManager/plugins/"
 
 //*
 #define termcolor_green     "\033[1;32m"
@@ -133,6 +133,8 @@ void PluginManager::load()
         if (!dir.compare(0, prefix.size(), prefix))
         {
             CPlugin* (*plugin_getPlugin) ();
+
+            // std::cout << "Loading plugin from " << (path + "plugin.so").c_str() << std::endl;
 
             #if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
                 DWORD err;
