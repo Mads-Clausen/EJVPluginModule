@@ -97,8 +97,8 @@ void world::init()
 
 void world::registerBlockType(EJV::BlockInfo *b, unsigned int &id)
 {
-    EJV::Metadata md;
-    id = md.registerData(b);
+    EJV::State &core = EJV::State::GET();;
+    id = core.registerData(b);
     // blockAttribs.insert(std::pair<unsigned int, EJV::BlockInfo*>(id, b));
 
     #ifdef PLUGIN_DEBUG

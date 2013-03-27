@@ -18,7 +18,6 @@
 
 #include <GL/glfw.h>
 
-#include "API.h"
 #include "CPlugin.h"
 
 #include "Action.hpp"

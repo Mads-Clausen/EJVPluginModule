@@ -5,19 +5,19 @@
 
 PluginManager *pluginManager;
 
-extern "C" void EJVmodule_init()
+extern "C" void init()
 {
 	// std::cout << "Hello, World!" << std::endl;
 	pluginManager = new PluginManager();
     pluginManager->load();
 }
 
-extern "C" void EJVmodule_destroy()
+extern "C" void destroy()
 {
     delete pluginManager;
 }
 
-extern "C" void EJVmodule_tick(EJV::Action::Base *base)
+extern "C" void tick(EJV::Action::Base *base)
 {
 
 }

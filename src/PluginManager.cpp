@@ -1,7 +1,7 @@
 #include "PluginManager.h"
 
 #include <iostream>
-#define EJV_PLUGIN_PATH "/home/mads/EmptyJuiceBox/EJVPluginModule/plugins/"
+#define EJV_PLUGIN_PATH "/home/mads/EmptyJuiceBox/EmpytJuiceVoxel-master/modules/Rules/PluginManager/plugins/"
 
 //*
 #define termcolor_green     "\033[1;32m"
