@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EJB Plugin Module" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EJBPluginModule" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release-CPluginManager">
+				<Option output="/home/mads/EmptyJuiceBox/EJVPluginModule/libCPluginManager.so" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s -rdynamic -ldl" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/API.h" />
+		<Unit filename="include/API/chat.h" />
+		<Unit filename="include/API/classes/Block.h" />
+		<Unit filename="include/API/classes/ChatMessage.h" />
+		<Unit filename="include/API/event.h" />
+		<Unit filename="include/API/ui.h" />
+		<Unit filename="include/API/world.h" />
+		<Unit filename="include/CPlugin.h" />
+		<Unit filename="include/Plugin.h" />
+		<Unit filename="include/PluginManager.h" />
+		<Unit filename="include/win/dirent.h" />
+		<Unit filename="plugins/plugin_test/src/plugin.cpp" />
+		<Unit filename="src/API.cpp" />
+		<Unit filename="src/API/chat.cpp" />
+		<Unit filename="src/API/classes/Block.cpp" />
+		<Unit filename="src/API/classes/ChatMessage.cpp" />
+		<Unit filename="src/API/event.cpp" />
+		<Unit filename="src/API/ui.cpp" />
+		<Unit filename="src/API/world.cpp" />
+		<Unit filename="src/CPlugin.cpp" />
+		<Unit filename="src/PluginManager.cpp" />
+		<Unit filename="src/PluginModule.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

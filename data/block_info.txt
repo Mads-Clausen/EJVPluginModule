@@ -1,0 +1,154 @@
+## Syntax:
+## <ID> <hardness> <name>
+
+1 1.5 Stone
+2 0.6 Grass
+3 0.6 Dirt
+4 2.0 Cobblestone
+5 2.0 Wooden Planks
+## Excluded: Saplings
+7 9001.0 Bedrock
+8 9001.0 Water
+10 9001.0 Lava
+12 0.5 Sand
+13 0.5 Gravel
+14 3.0 Gold Ore
+15 3.0 Iron Ore
+16 3.0 Coal ore
+17 2.0 Wood
+18 0.2 Leaves
+19 0.6 Sponge
+20 0.3 Glass
+21 3.0 Lapis Lazuli Ore
+22 3.0 Lapis Lazuli Block
+23 3.5 Dispenser
+24 0.8 Sandstone
+25 0.8 Note Block
+26 0.2 Bed
+27 0.7 Powered Rail
+28 0.7 Detector Rail
+29 0.5 Sticky Piston
+30 4.0 Cobweb
+33 0.5 Piston
+34 0.5 Piston Extension
+35 0.8 Wool
+## Skipped some blocks
+41 3.0 Gold Block
+42 3.0 Iron Block
+43 2.0 Double Slabs
+44 2.0 Slabs
+45 2.0 Bricks
+46 0.0 TNT
+47 1.5 Bookshelf
+48 2.0 Moss Stone
+49 50.0 Obsidian
+50 0.0 Torch
+51 0.0 Fire
+## ^ idfk
+52 5 Monster Spawner
+53 2.0 Oakwood Stairs
+54 2.5 Chest
+55 0.0 Redstone Wire
+56 3.0 Diamond Ore
+57 5.0 Diamond Block
+58 2.5 Crafting Table
+## Excluded Wheat
+60 0.6 Farmland
+61 3.5 Furnace
+62 3.5 Burning Furnace
+63 1.0 Sign Post
+64 3.0 Wooden Door
+65 0.4 Ladder
+66 0.7 Rail
+67 2.0 Cobblestone Stairs
+68 1.0 Wall Sign
+69 0.5 Lever
+70 0.5 Stone Pressure Plate
+71 5.0 Iron Door
+72 0.5 Wooden Pressure Plate
+73 3.0 Redstone Ore
+74 3.0 Glowing Redstone Ore
+75 0.0 Redstone Torch
+76 0.0 Active Redstone Torch
+77 0.5 Stone Button
+78 0.2 Snow
+79 0.5 Ice
+80 0.2 Snow Block
+81 0.4 Cactus
+82 0.6 Clay
+83 0.0 Sugar Cane
+84 2.0 Jukebox
+85 2.0 Fence
+86 1.0 Pumpkin
+87 0.4 Netherrack
+88 0.5 Soul Sand
+89 0.3 Glowstone
+90 9001.0 Nether Portal
+91 1.0 Jack 'o' Lantern
+92 0.5 Cake
+93 0.0 Redstone Repeater
+94 0.0 Active Redstone Repeater
+95 2.5 Locked Chest
+96 3.0 Trapdoor
+97 0.75 Monster Egg
+98 1.5 Stone Brick
+## Excluded Huge Mushrooms
+101 5.0 Iron Bars
+102 0.3 Glass Pane
+103 1.0 Melon
+## Excluded Pumpkin Stem and Melon Stem
+106 0.2 Vines
+107 2.0 Fence Gate
+108 2.0 Brick Stairs
+109 2.0 Stone Brick Stairs
+110 0.6 Mycelium
+111 0.0 Lily Pad
+112 2.0 Nether Brick
+113 2.0 Nether Brick Fence
+114 2.0 Nether Brick Stairs
+115 0.0 Nether Wart
+116 5.0 Enchantment Table
+117 0.5 Brewing Stand
+118 2.0 Cauldron
+119 9001.0 End Portal
+120 9001.0 End Portal Block
+121 3.0 End Stone
+122 9001.0 Dragon Egg
+123 0.3 Redstone Lamp
+124 0.3 Active Redstone Lamp
+125 2.0 Wooden Double Slab
+126 2.0 Wooden Slab
+127 0.2 Cocoa
+128 0.8 Sandstone Stairs
+129 3.0 Emerald Ore
+130 22.5 Ender Chest
+131 0.0 Tripwire Hook
+132 0.0 Tripwire
+133 5.0 Emerald Block
+134 2.0 Sprucewood Stairs
+135 2.0 Birchwood Stairs
+136 2.0 Junglewood Stairs
+137 0.0 Command Block
+138 3.0 Beacon
+139 2.0 Cobblestone Wall
+## ---------------------- ##
+##   JESUS LAWD SO MANY   ##
+## ---------------------- ##
+140 0.0 Flower Pot
+## Excluded Carrots and Potatoes
+143 0.5 Wooden Button
+144 1.0 Mob Head
+145 5.0 Anvil
+146 2.5 Trapped Chest
+147 0.5 Light Pressure Plate
+148 0.5 Heavy Pressure Plate
+149 0.0 Redstone Comparator
+150 0.0 Active Redstone Comparator
+151 0.2 Daylight Sensor
+152 5.0 Redstone Block
+153 3.0 Nether Quartz Ore
+154 3.0 Hopper
+155 0.8 Quartz Block
+156 0.8 Quartz Stairs
+157 0.7 Activator Rail
+158 3.5 Dropper

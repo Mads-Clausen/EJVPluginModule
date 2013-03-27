@@ -1,0 +1,12 @@
+echo 	"\033[1;35mCompiling to plugin_module.o"
+g++ 	-I"/home/mads/EmptyJuiceBox/EJVPluginModule/include"\
+	-I"/home/mads/EmptyJuiceBox/EJVPluginModule/plugins"\
+	-I"/home/mads/EmptyJuiceBox/EmptyJuiceVoxel-master/include"\
+	-I"/home/mads/EmptyJuiceBox/EmptyJuiceVoxel-master/modules"\
+	-c -std=c++11 -fPIC -rdynamic -ldl *.cpp -o ../plugin_module.o
+
+echo 	"\033[1;33mCompiled plugin_module.o\n\033[1;34mCompiling to plugin_module.so"
+g++ 	-shared -rdynamic -ldl ../plugin_module.o -o ../plugin_module.so
+
+echo 	"\033[1;31mCompiled plugin_module.os\n\033[1;32mDeleting plugin_module.o\033[0;39m"
+rm	../plugin_module.o
